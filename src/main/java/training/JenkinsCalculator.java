@@ -8,6 +8,12 @@ public class JenkinsCalculator {
 		return a*b;
 	}
 	public int subVals(int a, int b) {
-		return a-b;
+		
+		if(a > b){
+			return a-b;
+		} else {
+		        return b -a ;
+		}	
+		
 	}
 }
